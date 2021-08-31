@@ -1,0 +1,124 @@
+h2 {
+  font-weight: 900;
+  color: hsl(223, 47%, 23%);
+}
+
+body {
+  margin: 0;
+  background-color: hsl(225, 100%, 94%);
+  position: relative;
+  text-align: center;
+  font-family: Red Hat Display;
+}
+
+.bg-img {
+  position: relative;
+  margin-bottom: 340px;
+}
+
+.middle-box {
+  width: 450px;
+  height: 650px;
+  background-color: white;
+  position: absolute;
+  top: 100px;
+  left: 38%;
+  border-radius: 30px;
+}
+
+.hero {
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
+}
+
+.description {
+  width: 70%;
+  line-height: 1.5;
+  color: hsl(224, 23%, 55%);
+  font-weight: 500;
+  position: relative;
+  margin: auto;
+}
+
+.small-box {
+  position: relative;
+  margin: auto;
+  background-color: hsl(225, 100%, 98%);
+  width: 80%;
+  height: 80px;
+  font-weight: 700;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.music-note {
+  width: fit-content;
+  position: relative;
+  left: 10px;
+  top: 15px;
+  margin-left: 10px;
+  overflow: auto;
+}
+
+/*parei aqui*/
+.sbox-content {
+  position: absolute;
+  top: 0;
+  left: 80px;
+}
+
+.p-annual {
+  margin-bottom: 0;
+  color: hsl(223, 47%, 23%);
+}
+
+.price {
+  font-weight: 500;
+  color: hsl(224, 23%, 55%);
+  margin-top: 0;
+}
+
+.change:hover {
+  color: hsl(224, 23%, 55%);
+  text-decoration: none;
+}
+
+.change {
+  position: absolute;
+  top: 25px;
+  left: 200px;
+  font-weight: 900;
+}
+.submit:hover {
+  background-color: hsl(246, 67%, 71%);
+  text-decoration: none;
+}
+
+.submit {
+  background-color: hsl(245, 75%, 52%);
+  width: 80%;
+  height: 50px;
+  position: relative;
+  margin: auto;
+  margin: 25px auto 25px auto;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px hsl(225, 100%, 94%);
+}
+
+.proceed {
+  position: relative;
+  top: 15px;
+  color: hsl(225, 100%, 98%);
+  font-weight: 900;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.cancel:hover {
+  color: hsl(223, 47%, 23%);
+}
+.cancel {
+  color: hsl(224, 23%, 55%);
+  font-weight: 900;
+  text-decoration: none;
+}
